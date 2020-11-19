@@ -47,7 +47,7 @@ Good luck!
 
 **Additional Steps:** 
 -	json-simple.jar, located in the lib folder https://github.com/neurospf/jpf-symbc/tree/master/lib, should be added to the build path. 
-
+---------------------------------------------
 # Section II: Instructions on running NEUROSPF
 Command to run the Keras to Java Translator
 ```
@@ -61,9 +61,12 @@ python translator/java-dnn-gen.py --model kerasmodels/mnist-lowquality.h5 --outp
 
 The above command will generate the required code files inside jpf-symbc/src/examples/neurospf directory. User can run the SPF-DNN.jpf file using jpf-symbc to generate adversarial images
 
+---------------------------------------------
+
 # Section III: Link to Demonstration Video
   www.youtube.com/
-
+  
+---------------------------------------------
 # Section IV: Neural Network Architectures
 ### MNIST-LowQuality
 
@@ -158,5 +161,3 @@ DNN architecture is as follows.
 	Total params: 890,410
 	Trainable params: 890,410
 	Non-trainable params: 0
-  
-python keras2java/java-dnn-gen.py --model saved_models/mnist2.h5 --outputs "C:/Users/Muhammad Usman/eclipse-workspace/jpf-symbc/src/examples/neurospf" -i inn81
