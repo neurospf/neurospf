@@ -48,7 +48,7 @@ You can then try to run some examples by selecting a .jpf file from the "example
 Good luck!
 
 **Additional Steps:** 
--	json-simple.jar, located in the lib folder https://github.com/neurospf/jpf-symbc/tree/master/lib, should be added to the build path. 
+-	json-simple.jar, located in the lib folder https://github.com/neurospf/neurospf/blob/main/jpf-symbc/lib/json_simple.jar, should be added to the build path. 
 ---------------------------------------------
 # Section II: Instructions on running NEUROSPF
 Command to run the Keras to Java Translator
