@@ -23,7 +23,7 @@ SPF now has a "symcrete" mode that executes paths triggered by concrete inputs a
 
 A paper describing Symbolic PathFinder appeared at ISSTA'08:
 
-Title: Combining Unit-level Symbolic Execution and System-level Concrete Execution for Testing NASA Software, Authors: C. S. Pasareanu, P. C. Mehlitz, D. H. Bushnell, K. Gundy-Burlet, M. Lowry, S. Person, M. Pape.
+Title: Combining Unit-level Symbolic Execution and System-level Concrete Execution for Testing NASA Software, Authors: C. S. Pasareanu, P. C. Mehlitz, D. H. Bushnell, K. Gundy-Burlet, M. Lowry, S. Person, M. Pape. (DOI: https://dl.acm.org/doi/10.1145/1390630.1390635)
 
 #### [](https://github.com/SymbolicPathFinder/jpf-symbc#getting-started)Getting Started
 
@@ -35,11 +35,13 @@ And jpf-symbc from here:  [https://github.com/SymbolicPathFinder/jpf-symbc](http
 
 Import them in Eclipse as 2 Java projects. Also create a .jpf dir in your home directory and create in it a file called "site.properties" with the following content:
 
-jpf-core = ${user.home}/.../path-to-jpf-core-folder/jpf-core
+```
+jpf-core = <path-to-jpf-core-folder>/jpf-core
 
-jpf-symbc = ${user.home}/.../path-to-jpf-core-folder/jpf-symbc
+jpf-symbc = <path-to-jpf-core-folder>/jpf-symbc
 
 extensions=${jpf-core},${jpf-symbc}
+```
 
 You can then try to run some examples by selecting a .jpf file from the "examples" directory and then selecting a run configuration from the "Run" menu in Eclipse. In particular you should select: "run-JPF-symbc" to run Symbolic PathFinder on your example (configuration "run-JPF-symbc-mac" is tailored for Mac).
 
@@ -64,7 +66,7 @@ The above command will generate the required code files inside jpf-symbc/src/exa
 ---------------------------------------------
 
 # Section III: Link to Demonstration Video
-  www.youtube.com/
+ https://youtu.be/seal8fG78LI
   
 ---------------------------------------------
 # Section IV: Neural Network Architectures
@@ -161,3 +163,13 @@ DNN architecture is as follows.
 	Total params: 890,410
 	Trainable params: 890,410
 	Non-trainable params: 0
+
+---------------------------------------------
+
+# Maintainers
+* Muhammad Usman (muhammadusman@utexas.edu)
+
+---------------------------------------------
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details
